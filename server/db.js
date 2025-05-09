@@ -1,9 +1,6 @@
 const mongoose = require("mongoose");
-
-mongoose.connect(
-  "mongodb+srv://admin_user:test_user_123!@cluster0.eh2ed1r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-  { tls: true }
-);
+require("dotenv").config({ path: ".env.local" });
+mongoose.connect(process.env.MONGO_CONNECTION, { tls: true });
 
 const userSchema = new mongoose.Schema({
   Username: {
