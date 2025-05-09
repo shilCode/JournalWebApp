@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { BACKEND_URL } from "../config";
-import { HeaderS } from "./header";
+import { HeaderS } from "./Header";
 
 export const Auth = ({ type }) => {
   const [username, setUsername] = useState("");
