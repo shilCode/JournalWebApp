@@ -1,10 +1,10 @@
 # Journal Web App
 
-A simple web application for taking and managing notes.
+Demo Application to present E2E workflow for MERN stack. 
 
 ## Live Demo
 
-Check out the app here: [https://test-app-notes-five.vercel.app/](https://test-app-notes-five.vercel.app/)
+Check out the application here: [https://test-app-notes-five.vercel.app/](https://test-app-notes-five.vercel.app/)
 
 ## Features
 
