@@ -1,42 +1,37 @@
-# JournalWebApp
+# Journal Web App
 
-JournalWebApp is a web application designed to help users create, manage, and organize personal journal entries securely and efficiently.
+A simple web application for taking and managing notes.
+
+## Live Demo
+
+Check out the app here: [https://test-app-notes-five.vercel.app/](https://test-app-notes-five.vercel.app/)
 
 ## Features
 
-- User authentication and registration
-- Create, edit, and delete journal entries
-- Organize entries by date and tags
-- Search and filter journal entries
+- Create, edit, and delete notes
 - Responsive and user-friendly interface
-
-## Technologies Used
-
-- Frontend: [React](https://reactjs.org/) (or specify your frontend framework)
-- Backend: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
-- Database: [MongoDB](https://www.mongodb.com/) (or specify your database)
-- Authentication: JWT or OAuth
+- Data persists in your browser
 
 ## Getting Started
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/JournalWebApp.git
+    git clone https://github.com/your-username/JournalWebApp.git
+    cd JournalWebApp
     ```
 2. Install dependencies:
     ```bash
-    cd JournalWebApp
     npm install
     ```
-3. Set up environment variables (see `.env.example`).
-4. Start the development server:
+3. Start the development server:
     ```bash
     npm start
     ```
 
-## Contributing
+## Technologies Used
 
-Contributions are welcome! Please open issues or submit pull requests.
+- React
+- Vercel (for deployment)
 
 ## License
 
