@@ -4,17 +4,9 @@ export const Quote = () => {
             <div className="max-w-lg p-8 bg-white shadow-2xl rounded-xl transform transition-all hover:scale-105">
                 <div className="text-center mb-6">
                     <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-600 mb-3">
-                        Pen Cil
+                        Demo App for Test Automation
                     </h1>
-                    <p className="text-xl font-medium text-gray-700">
-                        Trishna Sharma Mou
-                    </p>
-                    <p className="text-md text-pink-500 font-semibold">
-                        Portfolio Project
-                    </p>
-                    <a className="text-md text-pink-500 font-semibold" href="https://github.com/Trishna-sharma/JournalApp">
-                    https://github.com/Trishna-sharma/JournalApp
-                    </a>
+
                 </div>
                 <div className="bg-gradient-to-r from-gray-100 to-gray-200 p-6 rounded-lg shadow-inner">
                     <div className="text-lg font-semibold text-gray-800 mb-3 text-center">
