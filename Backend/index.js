@@ -9,11 +9,11 @@ const port = process.env.PORT || 8000;
 
 const corsOptions = {
   origin: [
-    "https://test-auto-notes-backend.vercel.app/",
+    "https://test-app-notes-five.vercel.app/",
     "http://localhost:5173",
-    "https://journal-app-backend-phi.vercel.app/api/v1/user/signin",
-    "https://test-app-notes-five.vercel.app",
-    "https://test-auto-notes-backend-shilcodes-projects.vercel.app/",
+    // "https://journal-app-backend-phi.vercel.app/api/v1/user/signin",
+    // "https://test-app-notes-five.vercel.app",
+    // "https://test-auto-notes-backend-shilcodes-projects.vercel.app/",
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
