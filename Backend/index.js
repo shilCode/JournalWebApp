@@ -12,8 +12,9 @@ const corsOptions = {
     "https://test-app-notes-five.vercel.app", //ui url
     "https://test-app-notes-git-main-shilcodes-projects.vercel.app", //ui url
     "https://test-auto-notes-backend.vercel.app",
+    "https://test-auto-notes-backend.vercel.app/api/v1/user/signin",
     "http://localhost:5173",
-    // "https://journal-app-backend-phi.vercel.app/api/v1/user/signin",
+    "https://journal-app-backend-phi.vercel.app/api/v1/user/signin",
     // "https://test-app-notes-five.vercel.app",
     // "https://test-auto-notes-backend-shilcodes-projects.vercel.app/",
   ],
